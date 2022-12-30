@@ -19,4 +19,17 @@ const user = {
 	card: creditCardNumber,
 }
 
+const bankAccountDetails = {
+	"bankName": "hdfc",
+	"ifscCode": "hdfc123"
+}
+
+const orderDetails = {
+	"productDiscount": 10,
+	"price": 100,
+	"user": user
+}
+
+const BankName = "SBI";
+
 AppRegistry.registerComponent(appName, () => App);
