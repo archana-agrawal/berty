@@ -33,6 +33,16 @@ generate:
 	go mod tidy
 .PHONY: generate
 
+generate2:
+	$(call check-program, go)
+	touch api/*.proto
+	cd go; $(MAKE) generate
+	cd docs; $(MAKE) generate
+	cd js; $(MAKE) generate
+	cd config; $(MAKE) generate
+	go mod tidy
+.PHONY: generate2
+
 
 regenerate:
 	$(call check-program, go)
