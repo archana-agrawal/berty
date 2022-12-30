@@ -74,11 +74,4 @@ public class MainActivity extends ReactActivity implements LifecycleObserver {
         MainActivity.appState = AppState.Background;
         Log.d(TAG, "AppState: " + MainActivity.appState);
     }
-    
-    @Override
-    protected void onDestroyyyyyy() {
-        super.onDestroy();
-        MainActivity.appState = AppState.Background;
-        Log.d(TAG, "AppState: " + MainActivity.appState);
-    }
 }

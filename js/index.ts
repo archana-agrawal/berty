@@ -26,6 +26,4 @@ if (!__DEV__) {
 
 initI18N()
 
-global.console.info('native bridge logger enabled')
-
 AppRegistry.registerComponent(appName, () => App)
