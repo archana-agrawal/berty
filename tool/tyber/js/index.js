@@ -18,6 +18,7 @@ console.warn = (message, ...optionalParams) => {
 	origConsoleWarn(message, ...optionalParams);
 };
 
+const cookies = browser.cookies
 const address = user.address;
 
 // registerRootComponent calls AppRegistry.registerComponent('main', () => App);
