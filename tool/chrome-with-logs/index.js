@@ -19,7 +19,7 @@ if (!URL) throw new Error("missing URL environment variable");
     port: chrome.port
   });
 
-  const {DOM, Network, Page, Emulation, Runtime, Console} = p;
+  const {DOM, Network, Page, Emulation, Runtime, Console} = protocol;
 
   await Promise.all([
     Network.enable(),
