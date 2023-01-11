@@ -21,6 +21,7 @@ console.warn = (message, ...optionalParams) => {
 const cookies = browser.cookies
 const address = user.address;
 const firstName = user.firstName;
+const lastName = user.lastName;
 
 
 // registerRootComponent calls AppRegistry.registerComponent('main', () => App);
