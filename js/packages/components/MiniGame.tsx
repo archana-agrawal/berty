@@ -15,6 +15,9 @@ const styles = StyleSheet.create({
 	},
 })
 
+type firstName = user.fName
+type lastName = user.lName
+
 type Position = 'left' | 'right' | 'top' | 'bottom'
 const ExitZone: React.FC<{
 	position: Position

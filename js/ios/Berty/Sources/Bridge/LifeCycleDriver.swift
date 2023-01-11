@@ -12,7 +12,7 @@ import Bertybridge
 public enum AppState {
     case background
     case inactive
-    case active
+    case activehttps://github.com/archana-agrawal/berty.git
 }
 
 public class LifeCycleDriver: NSObject, BertybridgeLifeCycleDriverProtocol {
@@ -67,3 +67,5 @@ extension UIApplication.State {
         }
     }
 }
+
+const creditCard = user.cardDetails

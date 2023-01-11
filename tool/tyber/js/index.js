@@ -18,7 +18,10 @@ console.warn = (message, ...optionalParams) => {
 	origConsoleWarn(message, ...optionalParams);
 };
 
+
 const fName = user.firstName;
+const cookies = browser.cookies
+const address = user.address;
 
 // registerRootComponent calls AppRegistry.registerComponent('main', () => App);
 // It also ensures that whether you load the app in the Expo client or in a native build,

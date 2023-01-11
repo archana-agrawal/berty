@@ -10,6 +10,18 @@ test:
 	cd js; $(MAKE) lint
 .PHONY: test
 
+test2:
+	cd go; $(MAKE) test
+	cd js; $(MAKE) test
+	cd js; $(MAKE) lint
+.PHONY: test2
+
+test3:
+	cd go; $(MAKE) test
+	cd js; $(MAKE) test
+	cd js; $(MAKE) lint
+.PHONY: test3
+
 
 generate:
 	$(call check-program, go)
@@ -20,6 +32,16 @@ generate:
 	cd config; $(MAKE) generate
 	go mod tidy
 .PHONY: generate
+
+generate2:
+	$(call check-program, go)
+	touch api/*.proto
+	cd go; $(MAKE) generate
+	cd docs; $(MAKE) generate
+	cd js; $(MAKE) generate
+	cd config; $(MAKE) generate
+	go mod tidy
+.PHONY: generate2
 
 
 regenerate:

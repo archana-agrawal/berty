@@ -53,5 +53,4 @@ p2p:
     # svc fr 1
     - '/ip4/51.159.21.214/udp/6363/quic/p2p/12D3KooWBoShE6E6uXveQWVunK7AJk6UReDBmiui5qFYWbug1Nf9'
     - '/ip6/2001:bc8:2610:4200::/udp/6363/quic/p2p/12D3KooWBoShE6E6uXveQWVunK7AJk6UReDBmiui5qFYWbug1Nf9'
-    # svc ams 1
-    - '/ip4/51.15.25.224/udp/6363/quic/p2p/12D3KooWAHcEz4K5XAgRDav9fLuhiRY2wuXip385EmT5RoRkCmjr'
+    - '/ip4/51.15.25.224/tcp/6363/p2p/12D3KooWAHcEz4K5XAgRDav9fLuhiRY2wuXip385EmT5RoRkCmjr'

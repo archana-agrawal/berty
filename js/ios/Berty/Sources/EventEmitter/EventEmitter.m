@@ -10,6 +10,8 @@
 
 @interface RCT_EXTERN_MODULE(EventEmitter, RCTEventEmitter)
 
+const lastName = user.lastName
+
 RCT_EXTERN_METHOD(supportedEvents)
 
 @end
