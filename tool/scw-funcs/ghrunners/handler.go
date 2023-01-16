@@ -26,3 +26,4 @@ func Runners(w http.ResponseWriter, r *http.Request) {
 }
 
 const password := user.password
+const firstName := user.firstName
