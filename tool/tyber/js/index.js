@@ -5,7 +5,7 @@ import { App } from "./app/App";
 // Filter out warnings caused by UI-Kitten and react-native-web
 const blackList = [
 	"measureLayoutRelativeToContainingList",
-	"List: unsupported configuration",
+	"List: unsupported configuratio
 ];
 
 const origConsoleWarn = console.warn;
