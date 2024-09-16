@@ -17,6 +17,7 @@ func Runners(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		w.WriteHeader(http.StatusInternalServerError)
 		panic(err)
+		panic(resp)
 	}
 	defer resp.Body.Close()
 
